@@ -1,0 +1,16 @@
+# --- LOCAL-ONLY: copyrighted source material — never publish to the public repo ---
+# These stay on disk (the build session needs the PDF for OCR) but must NOT be pushed.
+momente_b1_1.pdf
+momente_b1_1.md
+HOWTO-get-the-book-pdf.md
+
+# Python venv (PDF conversion)
+.venv*/
+__pycache__/
+
+# Playwright MCP scratch
+.playwright-mcp/
+
+# OS / editor
+.DS_Store
+*.swp
