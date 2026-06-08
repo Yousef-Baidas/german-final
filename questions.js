@@ -423,6 +423,67 @@ const QUIZ_BANK = [
     prompt: "the challenge -> ___",
     answer: "die Herausforderung", accept: ["die Herausforderung", "Herausforderung"],
     explanation: "die Herausforderung (-ung → feminine)." },
+
+  /* -- A2.2 Wiederholung — Lektion 18-24 (from the A2.2 Kursbuch) -------- */
+  { id: 81, topic: "A2.2 Wiederholung", level: "A2.2", type: "mc",
+    prompt: "Theresa mag keine Handys. ___ hatte Oliver früher immer sein Handy dabei.",
+    options: ["Trotzdem", "Deshalb"], answer: "Trotzdem",
+    explanation: "Gegengrund (contrast) → trotzdem. deshalb would mean a result." },
+
+  { id: 82, topic: "A2.2 Wiederholung", level: "A2.2", type: "fill",
+    prompt: "Mit 15 ___ ich schon Fahrrad fahren. (können — Präteritum)",
+    answer: "konnte", accept: ["konnte"],
+    explanation: "Präteritum of können → konnte (no umlaut, with -t-). ich = er/es/sie form." },
+
+  { id: 83, topic: "A2.2 Wiederholung", level: "A2.2", type: "fill",
+    prompt: "Als Kind ___ ich unbedingt Pilot werden. (wollen — Präteritum)",
+    answer: "wollte", accept: ["wollte"],
+    explanation: "Präteritum of wollen → wollte." },
+
+  { id: 84, topic: "A2.2 Wiederholung", level: "A2.2", type: "mc",
+    prompt: "Wir gehen durch ___ Park.",
+    options: ["den", "dem"], answer: "den",
+    explanation: "durch + Akkusativ → den (der Park)." },
+
+  { id: 85, topic: "A2.2 Wiederholung", level: "A2.2", type: "mc",
+    prompt: "Die Bushaltestelle ist gegenüber ___ Haus.",
+    options: ["dem", "das"], answer: "dem",
+    explanation: "gegenüber + Dativ → dem (das Haus)." },
+
+  { id: 86, topic: "A2.2 Wiederholung", level: "A2.2", type: "fill",
+    prompt: "besitzen → die Person: der ___ (Wortbildung Verb + -er)",
+    answer: "Besitzer", accept: ["Besitzer", "der Besitzer"],
+    explanation: "Verb + -er → person noun: besitzen → der Besitzer." },
+
+  { id: 87, topic: "A2.2 Wiederholung", level: "A2.2", type: "fill",
+    prompt: "Du ___ dein Auto zu Hause. (lassen)",
+    answer: "lässt", accept: ["lässt", "laesst"],
+    explanation: "lassen: ich lasse, du/er lässt, wir/sie lassen, ihr lasst." },
+
+  { id: 88, topic: "A2.2 Wiederholung", level: "A2.2", type: "mc",
+    prompt: "Ein Freund, ___ ich schon lange kenne, wohnt jetzt hier.",
+    options: ["der", "den", "dem"], answer: "den",
+    explanation: "Relativpronomen: maskulin + Akkusativ (kennen takes an object) → den." },
+
+  { id: 89, topic: "A2.2 Wiederholung", level: "A2.2", type: "mc",
+    prompt: "Ein Mensch, ___ mutig ist, lebt anders.",
+    options: ["der", "den", "das"], answer: "der",
+    explanation: "Relativpronomen: maskulin + Nominativ (subject of the relative clause) → der." },
+
+  { id: 90, topic: "A2.2 Wiederholung", level: "A2.2", type: "fill",
+    prompt: "n-Deklination: Ich sehe den ___. (der Student — Akkusativ)",
+    answer: "Studenten", accept: ["Studenten"],
+    explanation: "n-Deklination: masc. nouns on -ent add -en in Akk./Dat. → den Studenten." },
+
+  { id: 91, topic: "A2.2 Wiederholung", level: "A2.2", type: "fill",
+    prompt: "Passiv Präsens: Die Lichter ___ ausgemacht. (werden + Partizip)",
+    answer: "werden", accept: ["werden"],
+    explanation: "Passiv = werden + Partizip II. Plural subject (die Lichter) → werden." },
+
+  { id: 92, topic: "A2.2 Wiederholung", level: "A2.2", type: "mc",
+    prompt: "Passiv Präsens: An der Kasse ___ das Geld gezählt.",
+    options: ["wird", "werden"], answer: "wird",
+    explanation: "Singular subject (das Geld) → wird + gezählt." },
 ];
 
 /* Expose for the <script src> load (and tolerate module contexts). */

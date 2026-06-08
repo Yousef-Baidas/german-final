@@ -2,7 +2,10 @@
 # These stay on disk (the build session needs the PDF for OCR) but must NOT be pushed.
 momente_b1_1.pdf
 momente_b1_1.md
+momente_a2_2.pdf
+momente_a2_2.md
 HOWTO-get-the-book-pdf.md
+*.b64
 
 # Python venv (PDF conversion)
 .venv*/
