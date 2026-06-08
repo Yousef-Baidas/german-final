@@ -49,6 +49,16 @@ No build / lint / test pipeline — it's vanilla HTML/CSS/JS.
   - `pdftoppm -png -r 200 -f 15 -l 18 momente_b1_1.pdf p && tesseract p-15.png stdout -l deu`
     (needs the `tesseract-data-deu` package).
 
+## Git / publishing
+
+- Remote `origin` → **https://github.com/yousef-baidas/german-final** (public). Push with
+  `git push -u origin main` once there's something to ship.
+- **The book stays local.** `momente_b1_1.pdf`, `momente_b1_1.md`, and
+  `HOWTO-get-the-book-pdf.md` are git-ignored — they're copyrighted / sensitive and must never
+  be committed or pushed to the public repo. They remain on disk for OCR + reference.
+- Safe to publish: the site (`index.html`, `questions.js`, `README.md`) and the `content/*.md`
+  study notes.
+
 ## Build approach
 
 Per BUILD-SPEC.md: use the **`/ui-ux-pro-max`** and **`/frontend-design`** skills to establish
