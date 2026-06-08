@@ -287,6 +287,142 @@ const QUIZ_BANK = [
     prompt: "die Schulzeit = ?",
     options: ["retirement", "school years", "birth"], answer: "school years",
     explanation: "die Schulzeit = the school years." },
+
+  /* -- Wortschatz — Lektion 2-10 (OCR'd from the Bildlexikon) ------------ */
+  { id: 54, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "der Freundeskreis = ?",
+    options: ["circle of friends", "best friend", "clique"], answer: "circle of friends",
+    explanation: "der Freundeskreis = the wider circle of friends (die Clique = a tight group)." },
+
+  { id: 55, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "friendship -> ___",
+    answer: "die Freundschaft", accept: ["die Freundschaft", "Freundschaft"],
+    explanation: "die Freundschaft (-schaft nouns are feminine)." },
+
+  { id: 56, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "der/die Bekannte = ?",
+    options: ["close friend", "acquaintance", "colleague"], answer: "acquaintance",
+    explanation: "Adjektiv als Nomen: ein Bekannter / eine Bekannte = acquaintance." },
+
+  { id: 57, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "zuverlässig = ?",
+    options: ["reliable", "creative", "punctual"], answer: "reliable",
+    explanation: "zuverlässig = reliable / dependable." },
+
+  { id: 58, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "fleißig = ?",
+    options: ["lazy", "hard-working", "attentive"], answer: "hard-working",
+    explanation: "fleißig = diligent / hard-working." },
+
+  { id: 59, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "punctual -> ___ (Adjektiv)",
+    answer: "pünktlich", accept: ["pünktlich", "puenktlich"],
+    explanation: "pünktlich (der Punkt + -lich)." },
+
+  { id: 60, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "sich an etwas gewöhnen = ?",
+    options: ["to get used to something", "to change something", "to repeat something"], answer: "to get used to something",
+    explanation: "sich an etwas (Akk.) gewöhnen = to get used to something." },
+
+  { id: 61, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "die Gewohnheit = ?",
+    options: ["a habit", "a resolution", "stamina"], answer: "a habit",
+    explanation: "die Gewohnheit = a habit (der Vorsatz = a resolution, die Ausdauer = stamina)." },
+
+  { id: 62, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "to make an effort / exert oneself -> sich ___ (Verb)",
+    answer: "anstrengen", accept: ["anstrengen", "sich anstrengen"],
+    explanation: "sich anstrengen — reflexive, keep the sich." },
+
+  { id: 63, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "Welcher Artikel?  ___ Werkstatt",
+    options: ["der", "die", "das"], answer: "die",
+    explanation: "die Werkstatt — from die Statt, not die Stadt." },
+
+  { id: 64, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "library -> ___",
+    answer: "die Bibliothek", accept: ["die Bibliothek", "Bibliothek"],
+    explanation: "die Bibliothek = library." },
+
+  { id: 65, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "die Waschküche = ?",
+    options: ["laundry room", "communal kitchen", "workshop"], answer: "laundry room",
+    explanation: "die Waschküche = laundry room (die Gemeinschaftsküche = communal kitchen)." },
+
+  { id: 66, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "einen Traum verwirklichen = ?",
+    options: ["to make a dream come true", "to plan a project", "to take a risk"], answer: "to make a dream come true",
+    explanation: "einen Traum verwirklichen = to make a dream come true." },
+
+  { id: 67, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "fest angestellt sein = ?",
+    options: ["to be permanently employed", "to work freelance", "to gain experience"], answer: "to be permanently employed",
+    explanation: "fest angestellt sein, the opposite of freiberuflich arbeiten (freelance)." },
+
+  { id: 68, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "to gain / collect experience -> Erfahrungen ___ (Verb)",
+    answer: "sammeln", accept: ["sammeln"],
+    explanation: "Erfahrungen sammeln = to gain experience." },
+
+  { id: 69, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "Welcher Artikel?  ___ Abenteuer",
+    options: ["der", "die", "das"], answer: "das",
+    explanation: "das Abenteuer — ends in -er but is neuter (a gender trap)." },
+
+  { id: 70, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "accommodation / lodging -> ___",
+    answer: "die Unterkunft", accept: ["die Unterkunft", "Unterkunft"],
+    explanation: "die Unterkunft (Pl. Unterkünfte)." },
+
+  { id: 71, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "die Sehenswürdigkeit = ?",
+    options: ["sight / tourist attraction", "souvenir", "overnight stay"], answer: "sight / tourist attraction",
+    explanation: "die Sehenswürdigkeit = a sight / tourist attraction." },
+
+  { id: 72, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "Welcher Artikel?  ___ Gesetz",
+    options: ["der", "die", "das"], answer: "das",
+    explanation: "das Gesetz — neuter, not masculine." },
+
+  { id: 73, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "die Pflicht = ?",
+    options: ["the duty", "the law", "the state"], answer: "the duty",
+    explanation: "die Pflicht = duty / obligation (das Gesetz = law, der Staat = state)." },
+
+  { id: 74, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "society -> ___",
+    answer: "die Gesellschaft", accept: ["die Gesellschaft", "Gesellschaft"],
+    explanation: "die Gesellschaft (-schaft → feminine)." },
+
+  { id: 75, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "die Vorlesung = ?",
+    options: ["the lecture", "the seminar", "the certificate"], answer: "the lecture",
+    explanation: "die Vorlesung = a (large) lecture; das Seminar = a small, interactive class." },
+
+  { id: 76, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "Welcher Artikel?  ___ Abschluss",
+    options: ["der", "die", "das"], answer: "der",
+    explanation: "der Abschluss — masculine (the degree you finish with)." },
+
+  { id: 77, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "the exam / test -> ___",
+    answer: "die Prüfung", accept: ["die Prüfung", "Prüfung", "pruefung", "die pruefung"],
+    explanation: "die Prüfung (-ung → feminine)." },
+
+  { id: 78, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "die Kündigung = ?",
+    options: ["dismissal / resignation", "promotion", "income"], answer: "dismissal / resignation",
+    explanation: "die Kündigung covers both dismissal (by employer) and resignation (by employee)." },
+
+  { id: 79, topic: "Wortschatz", level: "B1.1", type: "mc",
+    prompt: "Welcher Artikel?  ___ Einkommen",
+    options: ["der", "die", "das"], answer: "das",
+    explanation: "das Einkommen — one of only two neuter words in this field (with das Feedback)." },
+
+  { id: 80, topic: "Wortschatz", level: "B1.1", type: "fill",
+    prompt: "the challenge -> ___",
+    answer: "die Herausforderung", accept: ["die Herausforderung", "Herausforderung"],
+    explanation: "die Herausforderung (-ung → feminine)." },
 ];
 
 /* Expose for the <script src> load (and tolerate module contexts). */
